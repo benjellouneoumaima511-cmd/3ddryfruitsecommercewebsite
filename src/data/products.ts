@@ -1,0 +1,110 @@
+export const products = [
+  {
+    id: 1,
+    name: 'Amandes Premium',
+    nameEn: 'Premium Almonds',
+    nameAr: 'اللوز الممتاز',
+    price: 249,
+    rating: 4.9,
+    reviews: 156,
+    image: 'https://images.unsplash.com/photo-1615485737651-580c9159c89a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcmVtaXVtJTIwYWxtb25kcyUyMGx1eHVyeXxlbnwxfHx8fDE3NjQ1Mzc3NDB8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    badge: 'Best Seller',
+    discount: 15
+  },
+  {
+    id: 2,
+    name: 'Pistaches Grillées',
+    nameEn: 'Roasted Pistachio',
+    nameAr: 'الفستق المحمص',
+    price: 329,
+    rating: 5.0,
+    reviews: 203,
+    image: 'https://images.unsplash.com/photo-1734209181326-50c2b6763982?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwaXN0YWNoaW9zJTIwbnV0cyUyMGNsb3NlfGVufDF8fHx8MTc2NDUzNzc0MHww&ixlib=rb-4.1.0&q=80&w=1080',
+    badge: 'Premium',
+    discount: null
+  },
+  {
+    id: 3,
+    name: 'Abricots Secs Dorés',
+    nameEn: 'Golden Apricot',
+    nameAr: 'المشمش المجفف الذهبي',
+    price: 189,
+    rating: 4.8,
+    reviews: 128,
+    image: 'https://images.unsplash.com/photo-1601368135477-472a330882a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkcmllZCUyMGFwcmljb3RzJTIwbmF0dXJhbHxlbnwxfHx8fDE3NjQ1Mzc3NDF8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    badge: 'Organic',
+    discount: 10
+  },
+  {
+    id: 4,
+    name: 'Noix de Cajou Luxe',
+    nameEn: 'Luxury Cashew',
+    nameAr: 'الكاجو الفاخر',
+    price: 289,
+    rating: 4.9,
+    reviews: 187,
+    image: 'https://images.unsplash.com/photo-1594900689460-fdad3599342c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYXNoZXclMjBudXRzJTIwcHJlbWl1bXxlbnwxfHx8fDE3NjQ1Mzc3NDF8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    badge: 'New',
+    discount: null
+  },
+  {
+    id: 5,
+    name: 'Noix Bio',
+    nameEn: 'Organic Walnuts',
+    nameAr: 'الجوز العضوي',
+    price: 269,
+    rating: 4.7,
+    reviews: 142,
+    image: 'https://images.unsplash.com/photo-1763220633240-83bc578103f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3YWxudXRzJTIwbmF0dXJhbHxlbnwxfHx8fDE3NjQ1Mzc3NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    badge: 'Premium',
+    discount: 20
+  },
+  {
+    id: 6,
+    name: 'Dattes Medjool',
+    nameEn: 'Medjool Dates',
+    nameAr: 'تمر المجهول',
+    price: 229,
+    rating: 4.9,
+    reviews: 198,
+    image: 'https://images.unsplash.com/photo-1674066253665-4d2553a3bcb8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXRlcyUyMGRyaWVkJTIwZnJ1aXR8ZW58MXx8fHwxNzY0NTM3NzQyfDA&ixlib=rb-4.1.0&q=80&w=1080',
+    badge: 'Best Seller',
+    discount: null
+  },
+  {
+    id: 7,
+    name: 'Figues Séchées',
+    nameEn: 'Dried Figs',
+    nameAr: 'التين المجفف',
+    price: 199,
+    rating: 4.8,
+    reviews: 165,
+    image: 'https://images.unsplash.com/photo-1598111388756-b2285cca0458?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyYWlzaW5zJTIwb3JnYW5pY3xlbnwxfHx8fDE3NjQ1Mzc3NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    badge: 'Organic',
+    discount: 15
+  },
+  {
+    id: 8,
+    name: 'Raisins Secs Dorés',
+    nameEn: 'Golden Raisins',
+    nameAr: 'الزبيب الذهبي',
+    price: 149,
+    rating: 4.7,
+    reviews: 134,
+    image: 'https://images.unsplash.com/photo-1621926037410-5c727521e695?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtaXhlZCUyMG51dHMlMjBsdXh1cnl8ZW58MXx8fHwxNzY0NTM3NzQxfDA&ixlib=rb-4.1.0&q=80&w=1080',
+    badge: 'Best Seller',
+    discount: 10
+  },
+  {
+    id: 9,
+    name: 'Mélange Déluxe',
+    nameEn: 'Deluxe Mix',
+    nameAr: 'المزيج الفاخر',
+    price: 349,
+    rating: 5.0,
+    reviews: 210,
+    image: 'https://images.unsplash.com/photo-1621926037410-5c727521e695?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtaXhlZCUyMG51dHMlMjBsdXh1cnl8ZW58MXx8fHwxNzY0NTM3NzQxfDA&ixlib=rb-4.1.0&q=80&w=1080',
+    badge: 'Premium',
+    discount: null
+  }
+];

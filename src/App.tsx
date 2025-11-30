@@ -1,31 +1,36 @@
-import { Navigation } from './components/Navigation';
-import { MagazineHero } from './components/MagazineHero';
+import './i18n';
+import { CartProvider } from './contexts/CartContext';
+import { ThemeProvider } from './contexts/ThemeContext';
+import { EnhancedNavigation } from './components/EnhancedNavigation';
+import { VideoHero } from './components/VideoHero';
 import { ProductCategories } from './components/ProductCategories';
-import { AnimatedProductCards } from './components/AnimatedProductCards';
-import { ProductDetail } from './components/ProductDetail';
+import { EnhancedProductCards } from './components/EnhancedProductCards';
 import { HealthBenefits } from './components/HealthBenefits';
 import { About } from './components/About';
-import { ScrollStory } from './components/ScrollStory';
-import { PaymentMethods } from './components/PaymentMethods';
+import { ShoppingCart } from './components/ShoppingCart';
 import { Testimonials } from './components/Testimonials';
 import { InteractiveContact } from './components/InteractiveContact';
-import { Footer } from './components/Footer';
+import { EnhancedFooter } from './components/EnhancedFooter';
+import { Chatbot } from './components/Chatbot';
 
 export default function App() {
   return (
-    <div className="min-h-screen">
-      <Navigation />
-      <MagazineHero />
-      <ProductCategories />
-      <AnimatedProductCards />
-      <ProductDetail />
-      <ScrollStory />
-      <HealthBenefits />
-      <About />
-      <PaymentMethods />
-      <Testimonials />
-      <InteractiveContact />
-      <Footer />
-    </div>
+    <ThemeProvider>
+      <CartProvider>
+        <div className="min-h-screen bg-[#F7F0E8] dark:bg-gray-900 transition-colors duration-300">
+          <EnhancedNavigation />
+          <VideoHero />
+          <ProductCategories />
+          <EnhancedProductCards />
+          <HealthBenefits />
+          <About />
+          <ShoppingCart />
+          <Testimonials />
+          <InteractiveContact />
+          <EnhancedFooter />
+          <Chatbot />
+        </div>
+      </CartProvider>
+    </ThemeProvider>
   );
 }
