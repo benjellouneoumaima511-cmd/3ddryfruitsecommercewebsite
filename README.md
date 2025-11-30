@@ -1,1 +1,11 @@
-# repo-template
+
+  # 3D Dry-Fruits E-Commerce Website
+
+  This is a code bundle for 3D Dry-Fruits E-Commerce Website. The original project is available at https://www.figma.com/design/hEnURcbN4NauiDWHpJBqOW/3D-Dry-Fruits-E-Commerce-Website.
+
+  ## Running the code
+
+  Run `npm i` to install the dependencies.
+
+  Run `npm run dev` to start the development server.
+  
